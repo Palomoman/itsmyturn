@@ -1,26 +1,42 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <div class="first-half">
+      <NavBar></NavBar>
+      <BienvenidaComponent></BienvenidaComponent>
+    </div>
+    <div class="second-half">
+      <div>
+        <ContentComponent></ContentComponent>
+        <ContentComponentInverse></ContentComponentInverse>
+        <ContentComponent></ContentComponent>
+        <FooterComponent></FooterComponent>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import NavBar from "./components/NavBar.vue";
+import BienvenidaComponent from "./components/BienvenidaComponent.vue";
+import FooterComponent from "./components/FooterComponent.vue";
+import ContentComponent from "./components/ContentComponent.vue";
+import ContentComponentInverse from "./components/ContentComponentInverse.vue";
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    NavBar,
+    BienvenidaComponent,
+    FooterComponent,
+    ContentComponent,
+    ContentComponentInverse,
+  },
+};
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+@import "./assets/css/navBar-styles.css";
+@import "./assets/css/first-half-styles.css";
+@import "./assets/css/second-half-styles.css";
+@import "./assets/css/bienvenida.css";
+@import "./assets/css/footer.css";
 </style>

@@ -1,0 +1,25 @@
+.welcome-component {
+    padding-bottom: 100px;
+    padding-top: 225px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#principal {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    color: #ecf0f1;
+    text-decoration: none;
+    text-align: center;
+}
+
+#secundario {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #ecf0f1;
+    text-decoration: none;
+    text-align: center;
+}

@@ -1,0 +1,9 @@
+footer {
+    background-color: #24252a;
+    color: white;
+}
+
+#footer-id {
+    text-align: center;
+    line-height: 100px;
+}
