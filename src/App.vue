@@ -6,8 +6,10 @@
     </div>
     <div class="second-half">
       <div>
+        <VideoComp></VideoComp>
         <ContentComponent></ContentComponent>
         <ContentComponentInverse></ContentComponentInverse>
+        <!-- A PARTIR DE AQUÍ LA PÁGINA VUELVE A SER NEGRA -->
         <ContentComponent></ContentComponent>
         <FooterComponent></FooterComponent>
       </div>
@@ -21,6 +23,8 @@ import BienvenidaComponent from "./components/BienvenidaComponent.vue";
 import FooterComponent from "./components/FooterComponent.vue";
 import ContentComponent from "./components/ContentComponent.vue";
 import ContentComponentInverse from "./components/ContentComponentInverse.vue";
+import VideoComp from "./components/VideoComp.vue";
+
 export default {
   name: "App",
   components: {
@@ -29,6 +33,7 @@ export default {
     FooterComponent,
     ContentComponent,
     ContentComponentInverse,
+    VideoComp,
   },
 };
 </script>

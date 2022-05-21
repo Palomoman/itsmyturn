@@ -10,6 +10,11 @@
     <nav>
       <ul class="nav-items">
         <li>
+          <router-link to="/contact" active-class="active"
+            >Who am I</router-link
+          >
+        </li>
+        <li>
           <router-link to="/" active-class="active">Main</router-link>
         </li>
         <li>
