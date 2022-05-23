@@ -1,5 +1,5 @@
 <template>
-  <div class="welcome-component">
+  <div id="main" class="welcome-component">
     <h2 id="principal">
       Pure intellectual curiosity <br />
       that comes from a congenital fascination for technology <br />

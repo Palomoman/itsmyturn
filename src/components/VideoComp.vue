@@ -1,5 +1,5 @@
 <template>
-  <video id="video" autobuffer controls autoplay class="video">
+  <video id="video" autobuffer controls class="video">
     <source id="mp4" src="../assets/WhoamI.mp4" type="video/mp4" />
   </video>
 </template>

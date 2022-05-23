@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div id="education" class="container">
     <TarjetaImagen></TarjetaImagen>
     <TarjetaTexto></TarjetaTexto>
   </div>
