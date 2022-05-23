@@ -5,10 +5,11 @@
   </div>
 </template>
 <script>
-import TarjetaTexto from "./TarjetaTexto.vue";
-import TarjetaImagen from "./TarjetaImagen.vue";
+import TarjetaImagen from "../components/Tarjetas/TarjetaImagen.vue";
+import TarjetaTexto from "../components/Tarjetas/TarjetaTexto.vue";
+
 export default {
-  name: "ContentComponentInverse",
+  name: "SkillsComponent",
   components: { TarjetaTexto, TarjetaImagen },
 };
 </script>

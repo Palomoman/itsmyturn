@@ -7,10 +7,9 @@
     <div class="second-half">
       <div>
         <VideoComp></VideoComp>
-        <ContentComponent></ContentComponent>
-        <ContentComponentInverse></ContentComponentInverse>
-        <!-- A PARTIR DE AQUÍ LA PÁGINA VUELVE A SER NEGRA -->
-        <ContentComponent></ContentComponent>
+        <EducationComponent></EducationComponent>
+        <SkillsComponent></SkillsComponent>
+        <ContactComponent></ContactComponent>
         <FooterComponent></FooterComponent>
       </div>
     </div>
@@ -21,8 +20,9 @@
 import NavBar from "./components/NavBar.vue";
 import BienvenidaComponent from "./components/BienvenidaComponent.vue";
 import FooterComponent from "./components/FooterComponent.vue";
-import ContentComponent from "./components/ContentComponent.vue";
-import ContentComponentInverse from "./components/ContentComponentInverse.vue";
+import EducationComponent from "./components/EducationComponent.vue";
+import SkillsComponent from "./components/SkillsComponent.vue";
+import ContactComponent from "./components/ContactComponent.vue";
 import VideoComp from "./components/VideoComp.vue";
 
 export default {
@@ -31,8 +31,9 @@ export default {
     NavBar,
     BienvenidaComponent,
     FooterComponent,
-    ContentComponent,
-    ContentComponentInverse,
+    EducationComponent,
+    SkillsComponent,
+    ContactComponent,
     VideoComp,
   },
 };

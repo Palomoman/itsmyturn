@@ -1,7 +1,7 @@
 <template>
   <img
     class="imagen"
-    src="../assets/presentacion.png"
+    src="../../assets/presentacion.png"
     alt="Imagen donde salgo haciendo una presentación. Se puede ver claramente el porte para presentar que tengo. jeje."
   />
 </template>
@@ -13,5 +13,5 @@ export default {
 </script>
 
 <style>
-@import "../assets/css/imagenComponent.css";
+@import "../../assets/css/imagenComponent.css";
 </style>
