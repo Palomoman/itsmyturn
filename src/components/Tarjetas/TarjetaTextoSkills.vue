@@ -1,76 +1,74 @@
 <template>
   <div class="skills-container">
-    <div class="skills-content">
-      <div class="skills-articles">
-        <h3>{{ front }}</h3>
-        <article>{{ front1 }}</article>
-        <article>{{ front2 }}</article>
-        <article>{{ front3 }}</article>
-        <article>{{ front4 }}</article>
-        <article>{{ front5 }}</article>
-        <article>{{ front6 }}</article>
-        <article>{{ front7 }}</article>
-        <article>{{ front8 }}</article>
-      </div>
-      <div class="skills-articles">
-        <h3>{{ back }}</h3>
-        <article>{{ back1 }}</article>
-        <article>{{ back2 }}</article>
-        <article>{{ back3 }}</article>
-        <article>{{ back4 }}</article>
-        <article>{{ back5 }}</article>
-        <article>{{ back6 }}</article>
-      </div>
-      <div class="skills-articles">
-        <h3>{{ general }}</h3>
-        <article>{{ general1 }}</article>
-        <article>{{ general2 }}</article>
-        <article>{{ general3 }}</article>
-        <article>{{ general4 }}</article>
-        <article>{{ general5 }}</article>
-        <article>{{ general6 }}</article>
-        <article>{{ general7 }}</article>
-        <article>{{ general8 }}</article>
-        <article>{{ general9 }}</article>
-        <article>{{ general10 }}</article>
-        <article>{{ general11 }}</article>
-        <article>{{ general12 }}</article>
-        <article>{{ general13 }}</article>
-        <article>{{ general14 }}</article>
-      </div>
-      <div class="skills-articles">
-        <h3>{{ design }}</h3>
-        <article>{{ design1 }}</article>
-        <article>{{ design2 }}</article>
-        <article>{{ design3 }}</article>
-        <article>{{ design4 }}</article>
-      </div>
-      <div class="skills-articles">
-        <h3>{{ idiomas }}</h3>
-        <article>{{ idiomas1 }}</article>
-        <article>{{ spanish }}</article>
-        <article>{{ idiomas2 }}</article>
-        <article>{{ catalan }}</article>
-        <article>{{ idiomas3 }}</article>
-        <article>{{ english }}</article>
-        <article>{{ idiomas4 }}</article>
-        <article>{{ japanese }}</article>
-      </div>
-      <div class="skills-articles">
-        <h3>{{ soft }}</h3>
-        <article>{{ soft1 }}</article>
-        <article>{{ soft2 }}</article>
-        <article>{{ soft3 }}</article>
-        <article>{{ soft4 }}</article>
-        <article>{{ soft5 }}</article>
-        <article>{{ soft6 }}</article>
-        <article>{{ soft7 }}</article>
-        <article>{{ soft8 }}</article>
-        <article>{{ soft9 }}</article>
-        <article>{{ soft10 }}</article>
-        <article>{{ soft11 }}</article>
-        <article>{{ soft12 }}</article>
-      </div>
+    <div class="skills-articles">
+      <h3>{{ front }}</h3>
+      <article>{{ front1 }}</article>
+      <article>{{ front2 }}</article>
+      <article>{{ front3 }}</article>
+      <article>{{ front4 }}</article>
+      <article>{{ front5 }}</article>
+      <article>{{ front6 }}</article>
+      <article>{{ front7 }}</article>
+      <article>{{ front8 }}</article>
+    </div>
+    <div class="skills-articles">
+      <h3>{{ back }}</h3>
+      <article>{{ back1 }}</article>
+      <article>{{ back2 }}</article>
+      <article>{{ back3 }}</article>
+      <article>{{ back4 }}</article>
+      <article>{{ back5 }}</article>
+      <article>{{ back6 }}</article>
+    </div>
+    <div class="skills-articles">
+      <h3>{{ general }}</h3>
+      <article>{{ general1 }}</article>
+      <article>{{ general2 }}</article>
+      <article>{{ general3 }}</article>
+      <article>{{ general4 }}</article>
+      <article>{{ general5 }}</article>
+      <article>{{ general6 }}</article>
+      <article>{{ general7 }}</article>
+      <article>{{ general8 }}</article>
+      <article>{{ general9 }}</article>
+      <article>{{ general10 }}</article>
+      <article>{{ general11 }}</article>
+      <article>{{ general12 }}</article>
+      <article>{{ general13 }}</article>
+      <article>{{ general14 }}</article>
+    </div>
+    <div class="skills-articles">
+      <h3>{{ design }}</h3>
+      <article>{{ design1 }}</article>
+      <article>{{ design2 }}</article>
+      <article>{{ design3 }}</article>
+      <article>{{ design4 }}</article>
+    </div>
+    <div class="skills-articles">
+      <h3>{{ idiomas }}</h3>
+      <article>{{ idiomas1 }}</article>
+      <article>{{ spanish }}</article>
+      <article>{{ idiomas2 }}</article>
+      <article>{{ catalan }}</article>
+      <article>{{ idiomas3 }}</article>
+      <article>{{ english }}</article>
+      <article>{{ idiomas4 }}</article>
+      <article>{{ japanese }}</article>
+    </div>
+    <div class="skills-articles">
+      <h3>{{ soft }}</h3>
+      <article>{{ soft1 }}</article>
+      <article>{{ soft2 }}</article>
+      <article>{{ soft3 }}</article>
+      <article>{{ soft4 }}</article>
+      <article>{{ soft5 }}</article>
+      <article>{{ soft6 }}</article>
+      <article>{{ soft7 }}</article>
+      <article>{{ soft8 }}</article>
+      <article>{{ soft9 }}</article>
+      <article>{{ soft10 }}</article>
+      <article>{{ soft11 }}</article>
+      <article>{{ soft12 }}</article>
     </div>
   </div>
 </template>

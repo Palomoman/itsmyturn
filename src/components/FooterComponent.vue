@@ -1,7 +1,7 @@
 <template>
   <footer>
     <div>
-      <p id="footer-id">Guillem Castaño Medina</p>
+      <p id="footer-id">© Guillem Castaño Medina.</p>
     </div>
   </footer>
 </template>

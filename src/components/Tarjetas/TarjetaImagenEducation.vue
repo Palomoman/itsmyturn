@@ -1,6 +1,6 @@
 <template>
   <img
-    class="imagen"
+    class="enfocat"
     src="../../assets/campusEnfocat.png"
     alt="Imagen donde se ve un grupo de gente posando para una foto bajo el cartel de una escuela de programación"
   />

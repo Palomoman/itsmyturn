@@ -1,10 +1,6 @@
 .video {
-    /* padding: 250px; */
     margin-left: 50vh;
     margin-top: 25vh;
     margin-bottom: 25vh;
     width: 50%;
-    -webkit-box-shadow: 10px 15px 35px 1px #005781;
-    box-shadow: 10px 15px 35px 1px #005781;
-    /* box-shadow: 5px 5px 35px 1px #005781; */
 }

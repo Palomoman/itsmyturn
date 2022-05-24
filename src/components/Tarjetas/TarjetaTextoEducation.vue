@@ -2,25 +2,29 @@
   <div class="aboutMe">
     <div class="about-content">
       <article class="aboutCard">
-        <h4>{{ Cep1 }}</h4>
-        <h5>{{ Cep2 }}</h5>
-        <h5>{{ Cep3 }}</h5>
+        <img src="../../assets/brain-solid.svg" height="35" />
+        <p>{{ Cep1 }}</p>
+        <p>{{ Cep2 }}</p>
+        <p>{{ Cep3 }}</p>
       </article>
       <article class="aboutCard">
-        <h4>{{ Enfocat1 }}</h4>
-        <h5>{{ Enfocat2 }}</h5>
-        <h5>{{ Enfocat3 }}</h5>
+        <img src="../../assets/brain-solid.svg" height="35" />
+        <p>{{ Enfocat1 }}</p>
+        <p>{{ Enfocat2 }}</p>
+        <p>{{ Enfocat3 }}</p>
       </article>
       <article class="aboutCard">
-        <h4>{{ UxUi1 }}</h4>
-        <h5>{{ UxUi2 }}</h5>
-        <h5>{{ UxUi3 }}</h5>
+        <img src="../../assets/brain-solid.svg" height="35" />
+        <p>{{ UxUi1 }}</p>
+        <p>{{ UxUi2 }}</p>
+        <p>{{ UxUi3 }}</p>
       </article>
       <article class="aboutCard">
-        <h4>{{ Yo1 }}</h4>
-        <h4>{{ Yo2 }}</h4>
-        <h5>{{ Yo3 }}</h5>
-        <h5>{{ Yo4 }}</h5>
+        <img src="../../assets/user-solid.svg" height="35" />
+        <p>{{ Yo1 }}</p>
+        <p>{{ Yo2 }}</p>
+        <p>{{ Yo3 }}</p>
+        <p>{{ Yo4 }}</p>
       </article>
     </div>
   </div>
@@ -33,6 +37,7 @@ export default {
     return {
       UxUi1: "Graphic Design",
       UxUi2: "UX/UI",
+      UxUi3: "Autodidact",
       Cep1: "Web Application development",
       Cep2: "Certificate of Higher Education",
       Cep3: "Centre d'Estudis Politècnics",

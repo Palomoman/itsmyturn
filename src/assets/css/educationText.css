@@ -17,8 +17,9 @@
 
 .aboutCard {
     /* background: #24252a; */
-    background: rgb(2, 0, 36);
-    background: linear-gradient(135deg, rgba(2, 0, 36, 1) 0%, rgba(51, 58, 94, 1) 45%, rgba(34, 188, 219, 1) 100%);
+    /* background: rgb(2, 0, 36);
+    background: linear-gradient(135deg, rgba(2, 0, 36, 1) 0%, rgba(51, 58, 94, 1) 45%, rgba(34, 188, 219, 1) 100%); */
+    background-color: #34568B;
     /* transition: all 400ms ease; */
     -webkit-transition: background-color 2s ease-out;
     -moz-transition: background-color 2s ease-out;
@@ -34,6 +35,8 @@
 }
 
 .aboutCard:hover {
-    background: #006f96;
+    /* background: #006f96; */
+    background: whitesmoke;
     color: #24252a;
+    border: 1px solid #006f96;
 }

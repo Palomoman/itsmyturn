@@ -1,6 +1,6 @@
 <template>
-  <article id="title">About me</article>
-  <div id="education" class="container">
+  <article id="education" class="title">About me</article>
+  <div class="container">
     <TarjetaImagenEducation></TarjetaImagenEducation>
     <TarjetaTextoEducation></TarjetaTextoEducation>
   </div>

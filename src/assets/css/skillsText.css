@@ -1,5 +1,30 @@
-.skills-container {}
+.skills-container {
+    grid-gap: 1.5rem;
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(3, 1fr);
+}
 
-.skills-content {}
+.skills-articles {
+    /* background: rgb(2, 0, 36);
+    background: linear-gradient(135deg, rgba(2, 0, 36, 1) 0%, rgba(51, 58, 94, 1) 45%, rgba(34, 188, 219, 1) 100%); */
+    background-color: #34568B;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    box-shadow: 0 19px 38px rgb(0 0 0 / 30%), 0 15px 12px rgb(0 0 0 / 22%);
+    padding: 10px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
 
-.skills-articles {}
+.skills-articles:hover {
+    /* background: #006f96; */
+    background: whitesmoke;
+    color: #24252a;
+    border: 1px solid #006f96;
+}

@@ -1,6 +1,6 @@
 <template>
   <img
-    class="imagen"
+    class="presentation"
     src="../../assets/presentacion.png"
     alt="Imagen donde salgo haciendo una presentación. Se puede ver claramente el porte para presentar que tengo. jeje."
   />

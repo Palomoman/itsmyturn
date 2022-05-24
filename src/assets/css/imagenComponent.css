@@ -1,10 +1,18 @@
-.imagen {
+.enfocat {
     height: 25%;
     width: 25%;
     border-radius: 7%;
+    margin-top: 5%;
 }
 
 .inari {
-    width: 23%;
+    width: 25%;
     border-radius: 5%;
+}
+
+.presentation {
+    height: 25%;
+    width: 25%;
+    border-radius: 7%;
+    margin-top: 5%;
 }
