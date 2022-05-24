@@ -1,13 +1,15 @@
 <template>
   <div class="contact-container">
     <div class="CV">
-      <a
-        class="btn btn-white btn-animate"
-        href="/public/cv/GuillemCastañoMedinaCV.pdf"
-        download
-        alt="Botón para descargar mi currículo"
-        >Download my CV</a
-      >
+      <div class="button">
+        <a
+          class="btn btn-white btn-animate"
+          href="/public/cv/GuillemCastañoMedinaCV.pdf"
+          download
+          alt="Botón para descargar mi currículo"
+          >Download my CV</a
+        >
+      </div>
     </div>
     <div class="icons">
       <a href="https://www.linkedin.com/in/guillemcasta%C3%B1omedina/">

@@ -19,7 +19,8 @@
     padding: 10px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    color: white;
+    /* color: white; */
+    color: #5dbde0;
 }
 
 .skills-articles:hover {
@@ -27,4 +28,12 @@
     background: whitesmoke;
     color: #24252a;
     border: 1px solid #006f96;
+}
+
+.card-content {
+    grid-gap: 1.5rem;
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 10px;
 }
