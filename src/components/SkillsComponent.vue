@@ -1,16 +1,17 @@
 <template>
+  <article id="title">Skills</article>
   <div id="skills" class="container">
-    <TarjetaTexto></TarjetaTexto>
-    <TarjetaImagen></TarjetaImagen>
+    <TarjetaTextoSkills></TarjetaTextoSkills>
+    <TarjetaImagenSkills></TarjetaImagenSkills>
   </div>
 </template>
 <script>
-import TarjetaImagen from "../components/Tarjetas/TarjetaImagen.vue";
-import TarjetaTexto from "../components/Tarjetas/TarjetaTexto.vue";
+import TarjetaImagenSkills from "./Tarjetas/TarjetaImagenSkills.vue";
+import TarjetaTextoSkills from "./Tarjetas/TarjetaTextoSkills.vue";
 
 export default {
   name: "SkillsComponent",
-  components: { TarjetaTexto, TarjetaImagen },
+  components: { TarjetaTextoSkills, TarjetaImagenSkills },
 };
 </script>
 

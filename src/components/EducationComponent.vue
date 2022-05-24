@@ -1,16 +1,17 @@
 <template>
+  <article id="title">About me</article>
   <div id="education" class="container">
-    <TarjetaImagen></TarjetaImagen>
-    <TarjetaTexto></TarjetaTexto>
+    <TarjetaImagenEducation></TarjetaImagenEducation>
+    <TarjetaTextoEducation></TarjetaTextoEducation>
   </div>
 </template>
 <script>
-import TarjetaImagen from "../components/Tarjetas/TarjetaImagen.vue";
-import TarjetaTexto from "../components/Tarjetas/TarjetaTexto.vue";
+import TarjetaTextoEducation from "./Tarjetas/TarjetaTextoEducation.vue";
+import TarjetaImagenEducation from "./Tarjetas/TarjetaImagenEducation.vue";
 
 export default {
   name: "EducationComponent",
-  components: { TarjetaTexto, TarjetaImagen },
+  components: { TarjetaTextoEducation, TarjetaImagenEducation },
 };
 </script>
 

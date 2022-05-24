@@ -1,16 +1,16 @@
 <template>
   <div id="contact" class="container">
-    <TarjetaImagen></TarjetaImagen>
-    <TarjetaTexto></TarjetaTexto>
+    <TarjetaImagenContact></TarjetaImagenContact>
+    <TarjetaTextoContact></TarjetaTextoContact>
   </div>
 </template>
 <script>
-import TarjetaImagen from "./Tarjetas/TarjetaImagen.vue";
-import TarjetaTexto from "./Tarjetas/TarjetaTexto.vue";
+import TarjetaImagenContact from "./Tarjetas/TarjetaImagenContact.vue";
+import TarjetaTextoContact from "./Tarjetas/TarjetaTextoContact.vue";
 
 export default {
   name: "ContactComponent",
-  components: { TarjetaTexto, TarjetaImagen },
+  components: { TarjetaTextoContact, TarjetaImagenContact },
 };
 </script>
 
