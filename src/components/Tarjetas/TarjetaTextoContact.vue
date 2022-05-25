@@ -4,7 +4,7 @@
       <div class="button">
         <a
           class="btn btn-white btn-animate"
-          href="/public/cv/GuillemCastañoMedinaCV.pdf"
+          :href="`${publicPath}cv/GuillemCastanoMedinaCV.pdf`"
           download
           alt="Botón para descargar mi currículo"
           >Download my CV</a
@@ -35,6 +35,11 @@
 <script>
 export default {
   name: "TarjetaTextoContact",
+  data() {
+    return {
+      publicPath: process.env.BASE_URL
+    }
+  }
 };
 </script>
 
